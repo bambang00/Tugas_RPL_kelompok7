@@ -1,0 +1,254 @@
+2016/10/18 18:48:32 [error] [exception.CException] exception 'CException' with message 'MahasiswaController cannot find the requested view "view".' in C:\xampp\htdocs\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#1 C:\xampp\htdocs\coba\protected\controllers\MahasiswaController.php(12): CController->render('view', Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Create')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/Creat...')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\coba\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/coba/index.php?r=Mahasiswa/Create
+---
+2016/10/18 18:49:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "View".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('View')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('View')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/View')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\coba\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/coba/index.php?r=Mahasiswa/View
+---
+2016/10/18 18:49:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "MahasiswaController/View".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('MahasiswaContro...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\coba\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/coba/index.php?r=MahasiswaController/View
+---
+2016/10/18 18:49:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "MahasiswaController/Create".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('MahasiswaContro...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\coba\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/coba/index.php?r=MahasiswaController/Create
+---
+2016/10/18 18:50:27 [error] [exception.CException] exception 'CException' with message 'MahasiswaController cannot find the requested view "view".' in C:\xampp\htdocs\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#1 C:\xampp\htdocs\coba\protected\controllers\MahasiswaController.php(12): CController->render('view', Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Create')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/Creat...')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\coba\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/coba/index.php?r=Mahasiswa/Create
+---
+2016/10/18 18:51:00 [error] [exception.CException] exception 'CException' with message 'MahasiswaController cannot find the requested view "View".' in C:\xampp\htdocs\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('View', Array, true)
+#1 C:\xampp\htdocs\coba\protected\controllers\MahasiswaController.php(12): CController->render('View', Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Create')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/Creat...')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\coba\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/coba/index.php?r=Mahasiswa/Create
+---
+2016/10/18 18:51:26 [error] [exception.CException] exception 'CException' with message 'MahasiswaController cannot find the requested view "View".' in C:\xampp\htdocs\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('View', Array, true)
+#1 C:\xampp\htdocs\coba\protected\controllers\MahasiswaController.php(12): CController->render('View', Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Create')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/Creat...')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\coba\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/coba/index.php?r=Mahasiswa/Create
+---
+2016/10/18 19:14:28 [error] [exception.CException] exception 'CException' with message 'MahasiswaController cannot find the requested view "create".' in C:\xampp\htdocs\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#1 C:\xampp\htdocs\coba\protected\controllers\MahasiswaController.php(12): CController->render('create', Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Create')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/Creat...')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\coba\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/coba/index.php?r=Mahasiswa/Create
+---
+2016/10/18 19:14:40 [error] [exception.CException] exception 'CException' with message 'MahasiswaController cannot find the requested view "Create".' in C:\xampp\htdocs\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('Create', Array, true)
+#1 C:\xampp\htdocs\coba\protected\controllers\MahasiswaController.php(12): CController->render('Create', Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Create')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/Creat...')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\coba\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/coba/index.php?r=Mahasiswa/Create
+---
+2016/10/18 19:18:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "coba/Create".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('coba/Create')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\coba\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/coba/index.php?r=coba/Create
+---
+2016/10/18 19:18:46 [error] [exception.CException] exception 'CException' with message 'MahasiswaController cannot find the requested view "create".' in C:\xampp\htdocs\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#1 C:\xampp\htdocs\coba\protected\controllers\MahasiswaController.php(12): CController->render('create', Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Create')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/Creat...')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\coba\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/coba/index.php?r=mahasiswa/Create
+---
+2016/10/18 19:18:52 [error] [exception.CException] exception 'CException' with message 'MahasiswaController cannot find the requested view "create".' in C:\xampp\htdocs\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#1 C:\xampp\htdocs\coba\protected\controllers\MahasiswaController.php(12): CController->render('create', Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/creat...')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\coba\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/coba/index.php?r=mahasiswa/create
+---
+2016/10/18 19:19:08 [error] [exception.CException] exception 'CException' with message 'MahasiswaController cannot find the requested view "create".' in C:\xampp\htdocs\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#1 C:\xampp\htdocs\coba\protected\controllers\MahasiswaController.php(12): CController->render('create', Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Create')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/Creat...')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\coba\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/coba/index.php?r=Mahasiswa/Create
+---
+2016/10/18 19:25:31 [error] [exception.CException] exception 'CException' with message 'MahasiswaController cannot find the requested view "create".' in C:\xampp\htdocs\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#1 C:\xampp\htdocs\coba\protected\controllers\MahasiswaController.php(12): CController->render('create', Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Create')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/Creat...')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\coba\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/coba/index.php?r=Mahasiswa/Create
+---
+2016/10/18 19:26:51 [error] [exception.CException] exception 'CException' with message 'MahasiswaController cannot find the requested view "create".' in C:\xampp\htdocs\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#1 C:\xampp\htdocs\coba\protected\controllers\MahasiswaController.php(12): CController->render('create', Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Create')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/Creat...')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\coba\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/coba/index.php?r=Mahasiswa/Create
+---
+2016/10/18 19:27:39 [error] [exception.CException] exception 'CException' with message 'MahasiswaController cannot find the requested view "create".' in C:\xampp\htdocs\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#1 C:\xampp\htdocs\coba\protected\controllers\MahasiswaController.php(12): CController->render('create', Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Create')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Mahasiswa/Creat...')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\coba\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/coba/index.php?r=Mahasiswa/Create
+---
+2016/10/18 19:34:49 [error] [exception.CException] exception 'CException' with message 'Property "Mahasiswa.nama" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\coba\protected\views\mahasiswa\View.php(1): CComponent->__get('nama')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#5 C:\xampp\htdocs\coba\protected\controllers\MahasiswaController.php(10): CController->render('view', Array)
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Create')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/Creat...')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\coba\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/coba/index.php?r=mahasiswa/Create
+HTTP_REFERER=http://localhost/coba/index.php?r=mahasiswa/Create
+---
+2016/10/18 19:35:00 [error] [exception.CException] exception 'CException' with message 'Property "Mahasiswa.nama" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\coba\protected\views\mahasiswa\View.php(1): CComponent->__get('nama')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#5 C:\xampp\htdocs\coba\protected\controllers\MahasiswaController.php(10): CController->render('view', Array)
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionCreate()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('Create')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/Creat...')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\coba\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/coba/index.php?r=mahasiswa/Create
+HTTP_REFERER=http://localhost/coba/index.php?r=mahasiswa/Create
+---
